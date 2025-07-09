@@ -5,7 +5,7 @@ from monitor.mock_system_stats import get_mock_stats  # fixed path if used as mo
 import datetime
 
 # 🔐 Configure Gemini with your API key (replace below or use environment variable)
-genai.configure(api_key="AIzaSyCiPPM3_mSmUc5OETUURFaC8C_f1btRmo0")  # ⛔️ Replace this before pushing
+genai.configure(api_key="apikey change")  # ⛔️ Replace this before pushing
 
 # 🔄 Load the Gemini 2.5 Flash model
 model = genai.GenerativeModel("gemini-2.5-flash")
